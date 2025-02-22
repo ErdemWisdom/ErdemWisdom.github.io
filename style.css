@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    margin: 10px;
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#main-card {
+    width: 300px;
+    height: 450px;
+}
+
+#cards-container {
+    flex-wrap: wrap;
+    justify-content: center;
+}

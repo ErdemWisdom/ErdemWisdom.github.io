@@ -1,0 +1,3 @@
+function startCards() {
+    displayCards();
+}
