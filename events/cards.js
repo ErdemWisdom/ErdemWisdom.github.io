@@ -22,21 +22,7 @@ function shuffleCards() {
 }
 
 function qualifierCards() {
-    createDeck();
-    shuffleCards();
-
-    mainCard.src = deck[0].img;
-    mainCard.classList.add("big-card");
-
-    cardsContainer.innerHTML = "";
-    deck.slice(1).forEach(card => {
-        const img = document.createElement("img");
-        img.src = card.img;
-        img.classList.add("card-small");
-        cardsContainer.appendChild(img);
-
-        setTimeout(() => {
-            img.classList.add("small-card-animate");
-        }, 100);
-    });
+    for(let i = 0; i < 52; i++) {
+        console.log(deck[i]);
+    }
 }
