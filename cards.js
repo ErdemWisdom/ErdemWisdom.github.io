@@ -22,7 +22,7 @@ function shuffleDeck(deck) {
 
 const shuffledDeck = shuffleDeck(deck);
 
-function displayCards() {
+function qualifierCards() {
     const shuffledDeck = shuffleDeck(deck);
     const mainCard = shuffledDeck[0];
 
@@ -39,3 +39,4 @@ function displayCards() {
         container.appendChild(img);
     });
 }
+export default qualifierCards;
